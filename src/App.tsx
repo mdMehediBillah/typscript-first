@@ -1,9 +1,11 @@
 import AddTask from './components/addTask';
+import QuizSection from './components/QuizSection';
 
 function App() {
   return (
-    <div>
+    <div className="container mx-auto p-4">
       <AddTask />
+      <QuizSection />
     </div>
   );
 }
